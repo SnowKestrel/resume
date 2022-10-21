@@ -16,9 +16,9 @@ jobs:
 
       - name: Commit Resume
         run: |
-          mv resume.pdf Kunalan_Kevin_Subagaran_Resume.pdf
-          git config --global user.name "knlnks/resume"
-          git config --global user.email "soulkks@hotmail.ca"
+          mv resume.pdf Aniket_Mukherjee_Resume.pdf
+          git config --global user.name "SnowKestrel/resume"
+          git config --global user.email "aniketm7274@gmail.com"
           git add .
           git commit -m '📄🔨 Generate Resume' || echo
           git push
